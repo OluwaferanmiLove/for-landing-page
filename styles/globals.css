@@ -1,3 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Apparel-Display-Black";
+  src: url("/fonts/Apparel/Apparel Display Black.ttf");
+}
+
+@font-face {
+  font-family: "Apparel-Display-Bold";
+  src: url("/fonts/Apparel/Apparel Display Bold.ttf");
+}
+
+@font-face {
+  font-family: "Apparel-Display-Regular";
+  src: url("/fonts/Apparel/Apparel Display Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/fonts/Gilroy/Gilroy-Regular.ttf");
+  /* font-style: medium;
+  font-display: auto; */
+}
+
 html,
 body {
   padding: 0;
