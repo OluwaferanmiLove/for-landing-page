@@ -36,7 +36,8 @@ module.exports = {
       spacing: {
         '11vw': '11vw',
         '23vw': '21.3vw',
-        '25vw': '27.5vw',
+        '25vw': '24.5vw',
+        'hero-max-height': '1080px',
       }
     },
   },

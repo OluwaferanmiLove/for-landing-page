@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className={"items-center h-screen"}>
+      <header className={"relative items-center h-screen max-h-hero-max-height"}>
         <Navbar />
         <div className={'absolute -rotate-90 top-60 -left-52 overflow-hidden'}>
           <p className={'text-hero-bg-text text-hero-large font-Apparel-Display-Regular'}>2022</p>
